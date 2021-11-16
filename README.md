@@ -1,2 +1,2 @@
-#List of extensions for google
+# List of extensions for google
 created by myself in javascript
