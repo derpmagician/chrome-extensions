@@ -1,0 +1,56 @@
+:root {
+    --is-white: rgb(253, 252, 241);
+    --is-bluish: #0363a3;
+    --is-red: rgb(185, 13, 13);
+    --is-otro: rgb(9, 139, 68);
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--is-otro);
+    min-width: 300px;
+    color: var(--is-white);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0.5em 0;
+}
+
+button {
+    background: var(--is-bluish);
+    color: var(--is-white);
+    padding: 10px 20px;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: var(--is-red);
+    color: var(--is-white);
+    border: 1px solid var(--is-bluish);
+}
+
+ul {
+    padding-left: 0;
+
+    li {
+        list-style-type: none;
+        
+        a {
+            //text-decoration: none;
+            color: var(--is-white);
+            font-size: 0.75em;
+        }
+    }
+}
