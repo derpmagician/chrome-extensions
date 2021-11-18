@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dice.css">
+    <title>Dice Roller</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <label for="quantity-el" id="quantityText">Number of dices: </label>
+            <input type="number" name="quantity" id="quantity-el" value="1" class="">
+            <p id="tip-quantity" class="tip">Please only numbers bigger than 0</p>
+        </div>
+        <div class="container">
+            <label for="faces-el" id="facesText">Number of sides: </label>
+            <input type="number" name="faces" id="faces-el" value="2" class="">
+            <p id="tip-faces" class="tip">Please only numbers bigger than 1</p>
+        </div>
+        
+        <button id="random-btn">Tirar Dados</button>
+        <div class="section">
+            <ul id="radom-list"></ul>
+        </div>
+    </main>
+    <script src="./dice.js"></script>
+</body>
+</html>
